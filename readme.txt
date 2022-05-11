@@ -33,4 +33,5 @@ git branch -d dev
 #使用分支完成某个任务，合并后再删除分支
 #这和直接再Master分支上工作效果一样，但过程更安全
 
-Creating a new branch &simple.
+
+Creating a new branch.
