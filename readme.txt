@@ -34,4 +34,3 @@ git branch -d dev
 #这和直接再Master分支上工作效果一样，但过程更安全
 
 
-Creating a new branch.
