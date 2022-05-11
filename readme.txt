@@ -1,7 +1,16 @@
 #创建分支dev
 git branch dev
+
 #切换到dev分支
 git checkout dev
+#或者
+git switch dev
+
+#创建并切换分支
+git checkout -b dev
+#或者
+git switch -c dev
+
 
 #查看当前分支
 git branch
