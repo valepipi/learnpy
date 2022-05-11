@@ -33,4 +33,9 @@ git branch -d dev
 #使用分支完成某个任务，合并后再删除分支
 #这和直接再Master分支上工作效果一样，但过程更安全
 
+#以上合并方式为fast forward，无法看出合并历史
+#以下合并方式，禁用ff，可以看出合并历史
+git merge --no-ff -m "merge with no-ff" dev
 
+#查看历史分支
+git log --graph --pretty=oneline --abbrev-commit
